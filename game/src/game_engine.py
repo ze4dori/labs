@@ -1,9 +1,8 @@
-MAX_ROUNDS = 3
-
+ROUNDS = 3
 
 def run_game(game, name):
     print(f"Hello, {name}!")
-    for _ in range(MAX_ROUNDS):
+    for _ in range(ROUNDS):
         question, correct_answer = game()
         print(f"Question: {question}")
         answer = input("Your answer: ")
