@@ -3,7 +3,10 @@ import random
 
 
 def lcm(a, b, c):
-    return abs(a * b * c) // math.gcd(a, b, c)
+    # Сначала находим LCM для a и b
+    ab_lcm = abs(a * b) // math.gcd(a, b)
+    # Затем находим LCM для ab_lcm и c
+    return abs(ab_lcm * c) // math.gcd(ab_lcm, c)
 
 
 def generate_numbers():
