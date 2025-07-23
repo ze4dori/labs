@@ -1,18 +1,20 @@
 Проект реализован в рамках учебного задания. Дополнительные функции (asciinema-запись и CodeClimate-интеграция) реализованы для повышения качества и демонстрации работы проекта.
 
 ## Структура проекта
-├── .idea/
-├── game/
-│ ├── bin/
-│ └── src/
-│ ├── pycache/
-│ ├── cli.py # Приветствие пользователя
-│ ├── game_engine.py # Общая логика для всех игр
-│ └── games/
-│ ├── pycache/
-│ ├── nok.py # Игра "НОК"
-│ └── progression.py # Игра "Геометрическая прогрессия"
+```
+├── .idea/                  
+├── game/                   
+│   ├── bin/                
+│   └── src/                
+│       ├── __pycache__/   
+│       ├── cli.py          # Приветствие пользователя
+│       ├── game_engine.py  # Общая логика для всех игр
+│       └── games/          
+│           ├── __pycache__/
+│           ├── nok.py      # Игра "НОК"
+│           └── progression.py  # Игра "Геометрическая прогрессия"
 └── README.md
+```
 
 ## Игры
 
@@ -43,4 +45,5 @@
 [![asciicast](https://asciinema.org/a/ToNVjeBXsCldSDizVtjwpg4jN.svg)](https://asciinema.org/a/ToNVjeBXsCldSDizVtjwpg4jN)
 
 Для анализа кода подключён сервис [Code Climate]([https://asciinema.org/a/ToNVjeBXsCldSDizVtjwpg4jN](https://codeclimate.com/)).
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/5656586cb524bc967b5a/maintainability)](https://codeclimate.com/github/ze4dori/labs/maintainability)
