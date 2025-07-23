@@ -1,5 +1,46 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/5656586cb524bc967b5a/maintainability)](https://codeclimate.com/github/ze4dori/labs/maintainability)
+Проект реализован в рамках учебного задания. Дополнительные функции (asciinema-запись и CodeClimate-интеграция) реализованы для повышения качества и демонстрации работы проекта.
+
+## Структура проекта
+├── .idea/
+├── game/
+│ ├── bin/
+│ └── src/
+│ ├── pycache/
+│ ├── cli.py # Приветствие пользователя
+│ ├── game_engine.py # Общая логика для всех игр
+│ └── games/
+│ ├── pycache/
+│ ├── nok.py # Игра "НОК"
+│ └── progression.py # Игра "Геометрическая прогрессия"
+└── README.md
+
+## Игры
+
+Игры работают по единой схеме:  
+– приветствие игрока,  
+– генерация вопроса,  
+– ввод ответа,  
+– проверка правильности,  
+– вывод результата.
+
+### Реализованные игры:
+
+- `nok` — игра "Наименьшее общее кратное".
+  Игроку показываются три случайных числа.
+  Например: `5 7 15`.  
+  Задача игрока — вычислить наименьшее общее кратное (НОК) этих чисел и ввести правильный ответ.
+
+- `progression` — игра "Геометрическая прогрессия".  
+  Игроку показывается ряд чисел, образующих геометрическую прогрессию, в котором одно число заменено на две точки (`..`).  
+  Например: `2 6 18 .. 162`.  
+  Задача игрока — определить, какое число пропущено и ввести правильный ответ.  
+  Длина прогрессии варьируется от 5 до 10 элементов и выбирается случайно.
+
+Количество раундов в каждой игре — **3**.
 
 <b>Демонстрация</b> различных исходов игры: [Asciinema](https://asciinema.org/a/ToNVjeBXsCldSDizVtjwpg4jN).
 
 [![asciicast](https://asciinema.org/a/ToNVjeBXsCldSDizVtjwpg4jN.svg)](https://asciinema.org/a/ToNVjeBXsCldSDizVtjwpg4jN)
+
+Для анализа кода подключён сервис [Code Climate]([https://asciinema.org/a/ToNVjeBXsCldSDizVtjwpg4jN](https://codeclimate.com/)).
+[![Maintainability](https://api.codeclimate.com/v1/badges/5656586cb524bc967b5a/maintainability)](https://codeclimate.com/github/ze4dori/labs/maintainability)
