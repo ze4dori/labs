@@ -47,3 +47,7 @@
 Для анализа кода подключён сервис [Code Climate]([https://asciinema.org/a/ToNVjeBXsCldSDizVtjwpg4jN](https://codeclimate.com/)).
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5656586cb524bc967b5a/maintainability)](https://codeclimate.com/github/ze4dori/labs/maintainability)
+
+---
+
+Проект выполнен в рамках лабораторной работы по курсу "Методология разработки программного обеспечения".
